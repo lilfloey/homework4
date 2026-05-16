@@ -36,7 +36,7 @@ class CollatzParallel
         Console.WriteLine($"Кількість задіяних логічних процесорів: {Environment.ProcessorCount}");
     }
 
-    // Функція обчисленняa
+    // Функція обчислення
     static int CountCollatzSteps(int n)
     {
         long current = n;
@@ -51,5 +51,4 @@ class CollatzParallel
         }
         return steps;
     }
-// test changes
-}
+}// Фінальна версія для пул ріквесту
